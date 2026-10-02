@@ -17,7 +17,7 @@
 
 A five-level physics puzzle in a 1500 × 800 Pygame window. You pull back from a launch zone on the left as with a slingshot, and the ball flies on a parabola that has to get over a block, pass under a hanging wall, or cross a region where gravity points upwards before it reaches a target on the right edge. Each hit unlocks the next level in a menu of padlocked buttons.
 
-The physics, collisions and menu are written from scratch. The only images are small hand-drawn bitmaps for the level buttons, the padlock and the target.
+The physics, collisions and menu are written from scratch. The only images are hand-drawn bitmaps for the level buttons, the padlock and the target.
 
 ## Quick start
 
