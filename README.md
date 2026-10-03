@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-30363D?style=flat-square)
 ![Status](https://img.shields.io/badge/status-playable-2DA44E?style=flat-square)
-![Year](https://img.shields.io/badge/year-2023-8250DF?style=flat-square)
 
 <img src="docs/preview.gif" alt="Levels 1 to 3 played in a row: a ball fired from the left reaches the target, then arcs over a block, then bounces under a hanging wall, and each hit unlocks the next level button" width="560">
 
@@ -81,10 +80,6 @@ Run it from the repository folder so the bitmaps load.
 - If a ball hits the target while you are dragging the next shot, the game returns to the menu still in aiming mode and ignores every later click.
 - The side-collision test predicts the next position with `y + vy` while the step uses `y - vy`, so hits near a block's corner can reverse the wrong component. Level 3 also defines a second block at y = 950–1000, below the window, which has no effect.
 - Progress is not saved, and there is no way back to the menu without hitting the target.
-
-## Background
-
-Written on or before June 2023: the same `main.py` is in a code backup from that month.
 
 ---
 
